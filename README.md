@@ -5,9 +5,13 @@ You can have a master server that all servers request data from and then each se
 Configurations can be adjusted in `config/settings.json` which has the following values
 
 `threads` number of threads to run (default: `50`)
+
 `init` initial records to start with (default: `2K`)
+
 `more_after` request more records if the queue is lower than
+
 `more_to_fetch` number of records to fetch after the first request
+
 `callback_after` update the main server after processing
 
 **How to run**
